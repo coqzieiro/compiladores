@@ -1,0 +1,10 @@
+{
+  "include": [
+    "analisador-lexico/src",
+    "analisador-lexico/tests",
+    "analisador-sintatico/src",
+    "analisador-sintatico/tests"
+  ],
+  "extraPaths": ["analisador-lexico/src", "analisador-sintatico/src"],
+  "typeCheckingMode": "basic"
+}

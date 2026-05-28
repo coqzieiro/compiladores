@@ -1,0 +1,14 @@
+programa exemplo;
+var
+  x, y: inteiro;
+  media: real;
+  ok: logico;
+inicio
+  leia(x, y);
+  media := (x + y) / 2.0;
+  ok := media >= 6.0;
+  se ok entao
+    escreva("aprovado", media)
+  senao
+    escreva("reprovado", media)
+fim.
