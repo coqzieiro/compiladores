@@ -1,0 +1,216 @@
+{
+  "tokens": [
+    {
+      "tipo": "PROGRAM",
+      "lexema": "programa",
+      "literal": null,
+      "linha": 1,
+      "coluna": 1,
+      "offset": 0
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "exemplo",
+      "literal": null,
+      "linha": 1,
+      "coluna": 10,
+      "offset": 9
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 1,
+      "coluna": 17,
+      "offset": 16
+    },
+    {
+      "tipo": "VAR",
+      "lexema": "var",
+      "literal": null,
+      "linha": 2,
+      "coluna": 1,
+      "offset": 18
+    },
+    {
+      "tipo": "DOIS_PONTOS",
+      "lexema": ":",
+      "literal": null,
+      "linha": 3,
+      "coluna": 5,
+      "offset": 26
+    },
+    {
+      "tipo": "INTEGER",
+      "lexema": "inteiro",
+      "literal": null,
+      "linha": 3,
+      "coluna": 7,
+      "offset": 28
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 3,
+      "coluna": 14,
+      "offset": 35
+    },
+    {
+      "tipo": "BEGIN",
+      "lexema": "inicio",
+      "literal": null,
+      "linha": 4,
+      "coluna": 1,
+      "offset": 37
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "x",
+      "literal": null,
+      "linha": 5,
+      "coluna": 3,
+      "offset": 46
+    },
+    {
+      "tipo": "ATRIBUICAO",
+      "lexema": ":=",
+      "literal": null,
+      "linha": 5,
+      "coluna": 5,
+      "offset": 48
+    },
+    {
+      "tipo": "NUMERO_INTEIRO",
+      "lexema": "10",
+      "literal": 10,
+      "linha": 5,
+      "coluna": 8,
+      "offset": 51
+    },
+    {
+      "tipo": "WRITE",
+      "lexema": "escreva",
+      "literal": null,
+      "linha": 6,
+      "coluna": 3,
+      "offset": 56
+    },
+    {
+      "tipo": "ABRE_PARENTESE",
+      "lexema": "(",
+      "literal": null,
+      "linha": 6,
+      "coluna": 10,
+      "offset": 63
+    },
+    {
+      "tipo": "FECHA_PARENTESE",
+      "lexema": ")",
+      "literal": null,
+      "linha": 6,
+      "coluna": 12,
+      "offset": 65
+    },
+    {
+      "tipo": "END",
+      "lexema": "fim",
+      "literal": null,
+      "linha": 7,
+      "coluna": 1,
+      "offset": 67
+    },
+    {
+      "tipo": "EOF",
+      "lexema": "",
+      "literal": null,
+      "linha": 8,
+      "coluna": 1,
+      "offset": 71
+    }
+  ],
+  "erros_lexicos": [
+    {
+      "tipo": "erro léxico",
+      "mensagem": "Número malformado '9x'. Identificadores não podem iniciar por dígito.",
+      "linha": 3,
+      "coluna": 3,
+      "offset": 24
+    },
+    {
+      "tipo": "erro léxico",
+      "mensagem": "Caractere inesperado '@'.",
+      "linha": 6,
+      "coluna": 11,
+      "offset": 64
+    }
+  ],
+  "erros_sintaticos": [
+    {
+      "tipo": "erro sintático",
+      "mensagem": "Esperado identificador na declaração de variável.",
+      "linha": 3,
+      "coluna": 5,
+      "offset": 26
+    },
+    {
+      "tipo": "erro sintático",
+      "mensagem": "Identificador 'x' não declarado.",
+      "linha": 5,
+      "coluna": 3,
+      "offset": 46
+    },
+    {
+      "tipo": "erro sintático",
+      "mensagem": "Esperado ';' entre comandos.",
+      "linha": 6,
+      "coluna": 3,
+      "offset": 56
+    },
+    {
+      "tipo": "erro sintático",
+      "mensagem": "Esperado '.' ao final do programa.",
+      "linha": 8,
+      "coluna": 1,
+      "offset": 71
+    }
+  ],
+  "tabela_simbolos": [
+    {
+      "nome": "exemplo",
+      "categoria": "programa",
+      "tipo": null,
+      "linha": 1,
+      "coluna": 10
+    }
+  ],
+  "ast": {
+    "tipo": "Programa",
+    "valor": "exemplo",
+    "filhos": [
+      {
+        "tipo": "Bloco",
+        "filhos": [
+          {
+            "tipo": "ComandoComposto",
+            "filhos": [
+              {
+                "tipo": "Atribuicao",
+                "valor": "x",
+                "filhos": [
+                  {
+                    "tipo": "Literal",
+                    "valor": 10
+                  }
+                ]
+              },
+              {
+                "tipo": "Escreva"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

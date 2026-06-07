@@ -1,0 +1,28 @@
+programa exemplo;
+var
+  total: inteiro;
+  media: real;
+  aprovado: booleano;
+
+procedimento calcula(a, b: inteiro; mostrar: booleano);
+var
+  soma: inteiro;
+inicio
+  soma := a + b;
+  media := soma / 2.0;
+  aprovado := media >= 6.0;
+  se mostrar entao
+    escreva("media", media)
+  senao
+    escreva("oculto")
+fim;
+
+inicio
+  leia(total);
+  calcula(total, 8, verdadeiro);
+  enquanto aprovado faca
+  inicio
+    escreva("aprovado");
+    aprovado := falso
+  fim
+fim.

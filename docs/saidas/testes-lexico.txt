@@ -1,0 +1,13 @@
+test_accepts_unicode_identifiers_bom_and_not_equal (test_lexer.LexerTest) ... ok
+test_comments_are_ignored (test_lexer.LexerTest) ... ok
+test_keywords_identifiers_numbers_and_operators (test_lexer.LexerTest) ... ok
+test_reports_invalid_character_and_bad_number (test_lexer.LexerTest) ... ok
+test_procedure_with_parameters_local_variables_and_call (test_parser.ParserTest) ... ok
+test_reports_missing_declaration (test_parser.ParserTest) ... ok
+test_reports_syntax_error (test_parser.ParserTest) ... ok
+test_valid_program_parses_without_errors (test_parser.ParserTest) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.004s
+
+OK

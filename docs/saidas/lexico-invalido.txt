@@ -1,0 +1,29 @@
+   1:1   PROGRAM            'programa'
+   1:10  IDENTIFICADOR      'exemplo'
+   1:17  PONTO_E_VIRGULA    ';'
+   2:1   VAR                'var'
+   3:5   DOIS_PONTOS        ':'
+   3:7   INTEGER            'inteiro'
+   3:14  PONTO_E_VIRGULA    ';'
+   4:1   BEGIN              'inicio'
+   5:3   IDENTIFICADOR      'x'
+   5:5   ATRIBUICAO         ':='
+   5:8   NUMERO_INTEIRO     '10'
+   6:3   WRITE              'escreva'
+   6:10  ABRE_PARENTESE     '('
+   6:12  FECHA_PARENTESE    ')'
+   7:1   END                'fim'
+   8:1   EOF                ''
+
+Erros léxicos:
+- Número malformado '9x'. Identificadores não podem iniciar por dígito. (linha 3, coluna 3)
+- Caractere inesperado '@'. (linha 6, coluna 11)
+
+Erros sintáticos/semânticos simples:
+- Esperado identificador na declaração de variável. (linha 3, coluna 5)
+- Identificador 'x' não declarado. (linha 5, coluna 3)
+- Esperado ';' entre comandos. (linha 6, coluna 3)
+- Esperado '.' ao final do programa. (linha 8, coluna 1)
+
+Tabela de símbolos:
+- exemplo (programa, tipo=None)

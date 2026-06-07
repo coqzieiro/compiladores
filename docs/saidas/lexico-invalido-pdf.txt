@@ -1,0 +1,19 @@
+programa - program
+exemplo - id
+; - simb_ponto_virgula
+var - var
+: - simb_dois_pontos
+inteiro - integer
+; - simb_ponto_virgula
+inicio - begin
+x - id
+:= - simb_atribuicao
+10 - num_int
+escreva - write
+( - simb_abre_parentese
+) - simb_fecha_parentese
+fim - end
+
+Erros léxicos:
+  linha 3, coluna 3: Número malformado '9x'. Identificadores não podem iniciar por dígito.
+  linha 6, coluna 11: Caractere inesperado '@'.

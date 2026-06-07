@@ -1,0 +1,17 @@
+programa - program
+exemplo - id
+var - var
+x - id
+inteiro - integer
+; - simb_ponto_virgula
+inicio - begin
+y - id
+:= - simb_atribuicao
+10 - num_int
+escreva - write
+( - simb_abre_parentese
+) - simb_fecha_parentese
+fim - end
+
+Erros léxicos:
+  linha 6, coluna 11: Caractere inesperado '@'.

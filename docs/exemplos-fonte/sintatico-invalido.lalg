@@ -1,0 +1,7 @@
+programa exemplo
+var
+  x inteiro;
+inicio
+  y := 10
+  escreva(@)
+fim

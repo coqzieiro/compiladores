@@ -1,0 +1,14 @@
+
+Erros léxicos:
+- Caractere inesperado '@'. (linha 6, coluna 11)
+
+Erros sintáticos/semânticos simples:
+- Esperado ';' após o cabeçalho do programa. (linha 2, coluna 1)
+- Esperado ':' antes do tipo da declaração. (linha 3, coluna 5)
+- Identificador 'y' não declarado. (linha 5, coluna 3)
+- Esperado ';' entre comandos. (linha 6, coluna 3)
+- Esperado '.' ao final do programa. (linha 8, coluna 1)
+
+Tabela de símbolos:
+- exemplo (programa, tipo=None)
+- x (variável, tipo=inteiro)

@@ -1,0 +1,693 @@
+{
+  "tokens": [
+    {
+      "tipo": "PROGRAM",
+      "lexema": "programa",
+      "literal": null,
+      "linha": 1,
+      "coluna": 1,
+      "offset": 0
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "exemplo",
+      "literal": null,
+      "linha": 1,
+      "coluna": 10,
+      "offset": 9
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 1,
+      "coluna": 17,
+      "offset": 16
+    },
+    {
+      "tipo": "VAR",
+      "lexema": "var",
+      "literal": null,
+      "linha": 2,
+      "coluna": 1,
+      "offset": 18
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "x",
+      "literal": null,
+      "linha": 3,
+      "coluna": 3,
+      "offset": 24
+    },
+    {
+      "tipo": "VIRGULA",
+      "lexema": ",",
+      "literal": null,
+      "linha": 3,
+      "coluna": 4,
+      "offset": 25
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "y",
+      "literal": null,
+      "linha": 3,
+      "coluna": 6,
+      "offset": 27
+    },
+    {
+      "tipo": "DOIS_PONTOS",
+      "lexema": ":",
+      "literal": null,
+      "linha": 3,
+      "coluna": 7,
+      "offset": 28
+    },
+    {
+      "tipo": "INTEGER",
+      "lexema": "inteiro",
+      "literal": null,
+      "linha": 3,
+      "coluna": 9,
+      "offset": 30
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 3,
+      "coluna": 16,
+      "offset": 37
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "media",
+      "literal": null,
+      "linha": 4,
+      "coluna": 3,
+      "offset": 41
+    },
+    {
+      "tipo": "DOIS_PONTOS",
+      "lexema": ":",
+      "literal": null,
+      "linha": 4,
+      "coluna": 8,
+      "offset": 46
+    },
+    {
+      "tipo": "REAL",
+      "lexema": "real",
+      "literal": null,
+      "linha": 4,
+      "coluna": 10,
+      "offset": 48
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 4,
+      "coluna": 14,
+      "offset": 52
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "ok",
+      "literal": null,
+      "linha": 5,
+      "coluna": 3,
+      "offset": 56
+    },
+    {
+      "tipo": "DOIS_PONTOS",
+      "lexema": ":",
+      "literal": null,
+      "linha": 5,
+      "coluna": 5,
+      "offset": 58
+    },
+    {
+      "tipo": "BOOLEAN",
+      "lexema": "logico",
+      "literal": null,
+      "linha": 5,
+      "coluna": 7,
+      "offset": 60
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 5,
+      "coluna": 13,
+      "offset": 66
+    },
+    {
+      "tipo": "BEGIN",
+      "lexema": "inicio",
+      "literal": null,
+      "linha": 6,
+      "coluna": 1,
+      "offset": 68
+    },
+    {
+      "tipo": "READ",
+      "lexema": "leia",
+      "literal": null,
+      "linha": 7,
+      "coluna": 3,
+      "offset": 77
+    },
+    {
+      "tipo": "ABRE_PARENTESE",
+      "lexema": "(",
+      "literal": null,
+      "linha": 7,
+      "coluna": 7,
+      "offset": 81
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "x",
+      "literal": null,
+      "linha": 7,
+      "coluna": 8,
+      "offset": 82
+    },
+    {
+      "tipo": "VIRGULA",
+      "lexema": ",",
+      "literal": null,
+      "linha": 7,
+      "coluna": 9,
+      "offset": 83
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "y",
+      "literal": null,
+      "linha": 7,
+      "coluna": 11,
+      "offset": 85
+    },
+    {
+      "tipo": "FECHA_PARENTESE",
+      "lexema": ")",
+      "literal": null,
+      "linha": 7,
+      "coluna": 12,
+      "offset": 86
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 7,
+      "coluna": 13,
+      "offset": 87
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "media",
+      "literal": null,
+      "linha": 8,
+      "coluna": 3,
+      "offset": 91
+    },
+    {
+      "tipo": "ATRIBUICAO",
+      "lexema": ":=",
+      "literal": null,
+      "linha": 8,
+      "coluna": 9,
+      "offset": 97
+    },
+    {
+      "tipo": "ABRE_PARENTESE",
+      "lexema": "(",
+      "literal": null,
+      "linha": 8,
+      "coluna": 12,
+      "offset": 100
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "x",
+      "literal": null,
+      "linha": 8,
+      "coluna": 13,
+      "offset": 101
+    },
+    {
+      "tipo": "MAIS",
+      "lexema": "+",
+      "literal": null,
+      "linha": 8,
+      "coluna": 15,
+      "offset": 103
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "y",
+      "literal": null,
+      "linha": 8,
+      "coluna": 17,
+      "offset": 105
+    },
+    {
+      "tipo": "FECHA_PARENTESE",
+      "lexema": ")",
+      "literal": null,
+      "linha": 8,
+      "coluna": 18,
+      "offset": 106
+    },
+    {
+      "tipo": "DIVISAO",
+      "lexema": "/",
+      "literal": null,
+      "linha": 8,
+      "coluna": 20,
+      "offset": 108
+    },
+    {
+      "tipo": "NUMERO_REAL",
+      "lexema": "2.0",
+      "literal": 2.0,
+      "linha": 8,
+      "coluna": 22,
+      "offset": 110
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 8,
+      "coluna": 25,
+      "offset": 113
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "ok",
+      "literal": null,
+      "linha": 9,
+      "coluna": 3,
+      "offset": 117
+    },
+    {
+      "tipo": "ATRIBUICAO",
+      "lexema": ":=",
+      "literal": null,
+      "linha": 9,
+      "coluna": 6,
+      "offset": 120
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "media",
+      "literal": null,
+      "linha": 9,
+      "coluna": 9,
+      "offset": 123
+    },
+    {
+      "tipo": "MAIOR_IGUAL",
+      "lexema": ">=",
+      "literal": null,
+      "linha": 9,
+      "coluna": 15,
+      "offset": 129
+    },
+    {
+      "tipo": "NUMERO_REAL",
+      "lexema": "6.0",
+      "literal": 6.0,
+      "linha": 9,
+      "coluna": 18,
+      "offset": 132
+    },
+    {
+      "tipo": "PONTO_E_VIRGULA",
+      "lexema": ";",
+      "literal": null,
+      "linha": 9,
+      "coluna": 21,
+      "offset": 135
+    },
+    {
+      "tipo": "IF",
+      "lexema": "se",
+      "literal": null,
+      "linha": 10,
+      "coluna": 3,
+      "offset": 139
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "ok",
+      "literal": null,
+      "linha": 10,
+      "coluna": 6,
+      "offset": 142
+    },
+    {
+      "tipo": "THEN",
+      "lexema": "entao",
+      "literal": null,
+      "linha": 10,
+      "coluna": 9,
+      "offset": 145
+    },
+    {
+      "tipo": "WRITE",
+      "lexema": "escreva",
+      "literal": null,
+      "linha": 11,
+      "coluna": 5,
+      "offset": 155
+    },
+    {
+      "tipo": "ABRE_PARENTESE",
+      "lexema": "(",
+      "literal": null,
+      "linha": 11,
+      "coluna": 12,
+      "offset": 162
+    },
+    {
+      "tipo": "CADEIA",
+      "lexema": "\"aprovado\"",
+      "literal": "aprovado",
+      "linha": 11,
+      "coluna": 13,
+      "offset": 163
+    },
+    {
+      "tipo": "VIRGULA",
+      "lexema": ",",
+      "literal": null,
+      "linha": 11,
+      "coluna": 23,
+      "offset": 173
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "media",
+      "literal": null,
+      "linha": 11,
+      "coluna": 25,
+      "offset": 175
+    },
+    {
+      "tipo": "FECHA_PARENTESE",
+      "lexema": ")",
+      "literal": null,
+      "linha": 11,
+      "coluna": 30,
+      "offset": 180
+    },
+    {
+      "tipo": "ELSE",
+      "lexema": "senao",
+      "literal": null,
+      "linha": 12,
+      "coluna": 3,
+      "offset": 184
+    },
+    {
+      "tipo": "WRITE",
+      "lexema": "escreva",
+      "literal": null,
+      "linha": 13,
+      "coluna": 5,
+      "offset": 194
+    },
+    {
+      "tipo": "ABRE_PARENTESE",
+      "lexema": "(",
+      "literal": null,
+      "linha": 13,
+      "coluna": 12,
+      "offset": 201
+    },
+    {
+      "tipo": "CADEIA",
+      "lexema": "\"reprovado\"",
+      "literal": "reprovado",
+      "linha": 13,
+      "coluna": 13,
+      "offset": 202
+    },
+    {
+      "tipo": "VIRGULA",
+      "lexema": ",",
+      "literal": null,
+      "linha": 13,
+      "coluna": 24,
+      "offset": 213
+    },
+    {
+      "tipo": "IDENTIFICADOR",
+      "lexema": "media",
+      "literal": null,
+      "linha": 13,
+      "coluna": 26,
+      "offset": 215
+    },
+    {
+      "tipo": "FECHA_PARENTESE",
+      "lexema": ")",
+      "literal": null,
+      "linha": 13,
+      "coluna": 31,
+      "offset": 220
+    },
+    {
+      "tipo": "END",
+      "lexema": "fim",
+      "literal": null,
+      "linha": 14,
+      "coluna": 1,
+      "offset": 222
+    },
+    {
+      "tipo": "PONTO",
+      "lexema": ".",
+      "literal": null,
+      "linha": 14,
+      "coluna": 4,
+      "offset": 225
+    },
+    {
+      "tipo": "EOF",
+      "lexema": "",
+      "literal": null,
+      "linha": 15,
+      "coluna": 1,
+      "offset": 227
+    }
+  ],
+  "erros_lexicos": [],
+  "erros_sintaticos": [],
+  "tabela_simbolos": [
+    {
+      "nome": "exemplo",
+      "categoria": "programa",
+      "tipo": null,
+      "linha": 1,
+      "coluna": 10
+    },
+    {
+      "nome": "x",
+      "categoria": "variável",
+      "tipo": "inteiro",
+      "linha": 3,
+      "coluna": 3
+    },
+    {
+      "nome": "y",
+      "categoria": "variável",
+      "tipo": "inteiro",
+      "linha": 3,
+      "coluna": 6
+    },
+    {
+      "nome": "media",
+      "categoria": "variável",
+      "tipo": "real",
+      "linha": 4,
+      "coluna": 3
+    },
+    {
+      "nome": "ok",
+      "categoria": "variável",
+      "tipo": "logico",
+      "linha": 5,
+      "coluna": 3
+    }
+  ],
+  "ast": {
+    "tipo": "Programa",
+    "valor": "exemplo",
+    "filhos": [
+      {
+        "tipo": "Bloco",
+        "filhos": [
+          {
+            "tipo": "Declaracoes",
+            "filhos": [
+              {
+                "tipo": "Declaracao",
+                "filhos": [
+                  {
+                    "tipo": "Variavel",
+                    "valor": {
+                      "nome": "x",
+                      "tipo": "inteiro"
+                    }
+                  },
+                  {
+                    "tipo": "Variavel",
+                    "valor": {
+                      "nome": "y",
+                      "tipo": "inteiro"
+                    }
+                  }
+                ]
+              },
+              {
+                "tipo": "Declaracao",
+                "filhos": [
+                  {
+                    "tipo": "Variavel",
+                    "valor": {
+                      "nome": "media",
+                      "tipo": "real"
+                    }
+                  }
+                ]
+              },
+              {
+                "tipo": "Declaracao",
+                "filhos": [
+                  {
+                    "tipo": "Variavel",
+                    "valor": {
+                      "nome": "ok",
+                      "tipo": "logico"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tipo": "ComandoComposto",
+            "filhos": [
+              {
+                "tipo": "Leia",
+                "filhos": [
+                  {
+                    "tipo": "Identificador",
+                    "valor": "x"
+                  },
+                  {
+                    "tipo": "Identificador",
+                    "valor": "y"
+                  }
+                ]
+              },
+              {
+                "tipo": "Atribuicao",
+                "valor": "media",
+                "filhos": [
+                  {
+                    "tipo": "ExpressaoBinaria",
+                    "valor": "/",
+                    "filhos": [
+                      {
+                        "tipo": "ExpressaoBinaria",
+                        "valor": "+",
+                        "filhos": [
+                          {
+                            "tipo": "Identificador",
+                            "valor": "x"
+                          },
+                          {
+                            "tipo": "Identificador",
+                            "valor": "y"
+                          }
+                        ]
+                      },
+                      {
+                        "tipo": "Literal",
+                        "valor": 2.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tipo": "Atribuicao",
+                "valor": "ok",
+                "filhos": [
+                  {
+                    "tipo": "ExpressaoBinaria",
+                    "valor": ">=",
+                    "filhos": [
+                      {
+                        "tipo": "Identificador",
+                        "valor": "media"
+                      },
+                      {
+                        "tipo": "Literal",
+                        "valor": 6.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tipo": "Se",
+                "filhos": [
+                  {
+                    "tipo": "Identificador",
+                    "valor": "ok"
+                  },
+                  {
+                    "tipo": "Escreva",
+                    "filhos": [
+                      {
+                        "tipo": "Literal",
+                        "valor": "aprovado"
+                      },
+                      {
+                        "tipo": "Identificador",
+                        "valor": "media"
+                      }
+                    ]
+                  },
+                  {
+                    "tipo": "Escreva",
+                    "filhos": [
+                      {
+                        "tipo": "Literal",
+                        "valor": "reprovado"
+                      },
+                      {
+                        "tipo": "Identificador",
+                        "valor": "media"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
